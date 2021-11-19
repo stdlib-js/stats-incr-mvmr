@@ -20,7 +20,7 @@ limitations under the License.
 
 # incrmvmr
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Compute a moving [variance-to-mean ratio][variance-to-mean-ratio] (VMR) incrementally.
 
@@ -194,9 +194,9 @@ console.log( accumulator() );
 
 ## See Also
 
--   [`@stdlib/stats/incr/mmean`][@stdlib/stats/incr/mmean]: compute a moving arithmetic mean incrementally.
--   [`@stdlib/stats/incr/mvariance`][@stdlib/stats/incr/mvariance]: compute a moving unbiased sample variance incrementally.
--   [`@stdlib/stats/incr/vmr`][@stdlib/stats/incr/vmr]: compute a variance-to-mean ratio (VMR) incrementally.
+-   <span class="package-name">[`@stdlib/stats/incr/mmean`][@stdlib/stats/incr/mmean]</span><span class="delimiter">: </span><span class="description">compute a moving arithmetic mean incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/mvariance`][@stdlib/stats/incr/mvariance]</span><span class="delimiter">: </span><span class="description">compute a moving unbiased sample variance incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/vmr`][@stdlib/stats/incr/vmr]</span><span class="delimiter">: </span><span class="description">compute a variance-to-mean ratio (VMR) incrementally.</span>
 
 </section>
 
@@ -247,8 +247,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-incr-mvmr/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-incr-mvmr?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/stats-incr-mvmr.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/stats-incr-mvmr/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
