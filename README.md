@@ -30,10 +30,14 @@ For a window of size `W`, the [unbiased sample variance][sample-variance] is def
 
 <!-- <equation class="equation" label="eq:unbiased_sample_variance" align="center" raw="s^2 = \frac{1}{W-1} \sum_{i=0}^{W-1} ( x_i - \bar{x} )^2" alt="Equation for the unbiased sample variance."> -->
 
-<div class="equation" align="center" data-raw-text="s^2 = \frac{1}{W-1} \sum_{i=0}^{W-1} ( x_i - \bar{x} )^2" data-equation="eq:unbiased_sample_variance">
+```math
+s^2 = \frac{1}{W-1} \sum_{i=0}^{W-1} ( x_i - \bar{x} )^2
+```
+
+<!-- <div class="equation" align="center" data-raw-text="s^2 = \frac{1}{W-1} \sum_{i=0}^{W-1} ( x_i - \bar{x} )^2" data-equation="eq:unbiased_sample_variance">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@b331e5634fe726ff0e16e87814ac3f85d8164d31/lib/node_modules/@stdlib/stats/incr/mvmr/docs/img/equation_unbiased_sample_variance.svg" alt="Equation for the unbiased sample variance.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -41,10 +45,14 @@ and the [arithmetic mean][arithmetic-mean] is defined as
 
 <!-- <equation class="equation" label="eq:arithmetic_mean" align="center" raw="\bar{x} = \frac{1}{W} \sum_{i=0}^{W-1} x_i" alt="Equation for the arithmetic mean."> -->
 
-<div class="equation" align="center" data-raw-text="\bar{x} = \frac{1}{W} \sum_{i=0}^{W-1} x_i" data-equation="eq:arithmetic_mean">
+```math
+\bar{x} = \frac{1}{W} \sum_{i=0}^{W-1} x_i
+```
+
+<!-- <div class="equation" align="center" data-raw-text="\bar{x} = \frac{1}{W} \sum_{i=0}^{W-1} x_i" data-equation="eq:arithmetic_mean">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@164b8f1010c4535340eed9ad0b2af32c4a19863c/lib/node_modules/@stdlib/stats/incr/mvmr/docs/img/equation_arithmetic_mean.svg" alt="Equation for the arithmetic mean.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -52,10 +60,14 @@ The [variance-to-mean ratio][variance-to-mean-ratio] (VMR) is thus defined as
 
 <!-- <equation class="equation" label="eq:variance_to_mean_ratio" align="center" raw="F = \frac{s^2}{\bar{x}}" alt="Equation for the variance-to-mean ratio (VMR)."> -->
 
-<div class="equation" align="center" data-raw-text="F = \frac{s^2}{\bar{x}}" data-equation="eq:variance_to_mean_ratio">
+```math
+F = \frac{s^2}{\bar{x}}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="F = \frac{s^2}{\bar{x}}" data-equation="eq:variance_to_mean_ratio">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@b331e5634fe726ff0e16e87814ac3f85d8164d31/lib/node_modules/@stdlib/stats/incr/mvmr/docs/img/equation_variance_to_mean_ratio.svg" alt="Equation for the variance-to-mean ratio (VMR).">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -263,7 +275,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
