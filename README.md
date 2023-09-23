@@ -93,7 +93,7 @@ F = \frac{s^2}{\bar{x}}
 ## Usage
 
 ```javascript
-import incrmvmr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mvmr@esm/index.mjs';
+import incrmvmr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mvmr@v0.1.0-esm/index.mjs';
 ```
 
 #### incrmvmr( window\[, mean] )
@@ -185,7 +185,7 @@ F = accumulator();
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrmvmr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mvmr@esm/index.mjs';
+import incrmvmr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mvmr@v0.1.0-esm/index.mjs';
 
 var accumulator;
 var v;
