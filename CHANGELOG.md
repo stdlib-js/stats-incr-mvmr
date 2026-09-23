@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-05)
+## Unreleased (2026-09-23)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#15359](https://github.com/stdlib-js/stdlib/issues/15359)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +24,7 @@
 
 <details>
 
+-   [`93afd5e`](https://github.com/stdlib-js/stdlib/commit/93afd5e93b6bffe4d7634398227c0d141324f08b) - **chore:** fix JavaScript lint errors [(#15361)](https://github.com/stdlib-js/stdlib/pull/15361) _(by Lucian (Luka) Lavric, Athan Reines)_
 -   [`cf1aed8`](https://github.com/stdlib-js/stdlib/commit/cf1aed82fe6ca6c22786aa0c1dafc05d5cb708af) - **test:** migrate `stats/incr/mvmr` to ULP-based assertions [(#15005)](https://github.com/stdlib-js/stdlib/pull/15005) _(by Athan Reines)_
 -   [`a07ad1c`](https://github.com/stdlib-js/stdlib/commit/a07ad1c13b9d2428b8897f47c6c78c6bfb0a235d) - **bench:** refactor to use string interpolation in `stats/incr` [(#11394)](https://github.com/stdlib-js/stdlib/pull/11394) _(by Karan Anand)_
 
@@ -25,10 +38,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Karan Anand
+-   Lucian (Luka) Lavric
 
 </section>
 
